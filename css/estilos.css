@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezadoIzquierdo {
+    width: 50%;
+    margin-left: 40px;
+}
+
+.encabezadoIzquierdo img {
+    height: 60px;
+    width: 100px;
+}
+
+.encabezadoDerecho {
+    display: flex;
+    gap: 20px;
+}
+
+.encabezadoDerecho a {
+    text-decoration: none;
+    color: black;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 30px;
+    margin-right:50px;
+    margin-top: 60px;
+}
+
+.tarjetas img {
+    height: 235px;
+    border-radius: 20px;
+}
+
+.tarjetas p {
+    color: white;
+}
+
+.textoColorTarjetasRoja {
+    background-color: red;
+    color: white;
+    width: 45px;
+    text-align: center;
+}
+
+.textoColorTarjetasMorada {
+    background-color: rgba(83, 75, 197, 0.747);
+    color: white;
+    width: 45px;
+    text-align: center;
+}
